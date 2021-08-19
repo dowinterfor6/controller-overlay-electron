@@ -1,6 +1,6 @@
-# Controller Overlay
+# Controller Keypress Overlay
 
-A simple application to display a controller overlay, for streaming or recording use.
+A simple application to display a controller keypress overlay, for streaming or recording use.
 
 ## Specs
 - Size
