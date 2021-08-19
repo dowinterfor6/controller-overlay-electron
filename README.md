@@ -23,6 +23,13 @@ The core of the application is made with React, with `create-react-app`, and wra
 
 This project has been developed on [WSL2](https://docs.microsoft.com/en-us/windows/wsl/install-win10), and all commands are for WSL2. Builds currently target Windows x64 release.
 
+Install system libraries
+```
+$ sudo apt update
+$ sudo apt install libnss3-dev libgdk-pixbuf2.0-dev libgtk-3-dev libxss-dev
+
+```
+
 Install dependencies for the Electron wrapper
 
 ```
