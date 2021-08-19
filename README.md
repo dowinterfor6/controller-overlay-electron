@@ -2,6 +2,16 @@
 
 A simple application to display a controller overlay, for streaming or recording use.
 
+## Specs
+- Size
+  - .zip 139 MB
+  - .rar 117 MB
+  - uncompressed 389 MB (size on disk ~490MB)
+- Memory (RAM)
+  - Up to ~50 MB
+- CPU 
+  - Negligible
+
 ## Features
 
 - Draws a controller overlay on application launch
