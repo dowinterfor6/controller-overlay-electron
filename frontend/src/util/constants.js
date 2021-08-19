@@ -1,0 +1,2 @@
+export const BACKGROUND_COLOR_KEY = "BACKGROUND_COLOR_KEY";
+export const PRESET_KEY = "PRESET_KEY";

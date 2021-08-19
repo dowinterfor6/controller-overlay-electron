@@ -1,0 +1,72 @@
+$x-button-color: #059bde;
+$y-button-color: #c5b600;
+$b-button-color: #e93b38;
+$a-button-color: #77b842;
+
+svg {
+  path {
+    &.draw {
+      animation: dash 2s linear forwards;
+    }
+
+    &.fade-in-path:not(.no-transition) {
+      opacity: 0;
+      transition: opacity 0.3s, fill 0.3s;
+      transition-delay: 2s;
+
+      &.draw {
+        opacity: 1;
+
+        &.button-text {
+          &.a-button {
+            stroke: $a-button-color;
+            fill: $a-button-color;
+          }
+
+          &.b-button {
+            stroke: $b-button-color;
+            fill: $b-button-color;
+          }
+
+          &.x-button {
+            stroke: $x-button-color;
+            fill: $x-button-color;
+          }
+
+          &.y-button {
+            stroke: $y-button-color;
+            fill: $y-button-color;
+          }
+        }
+      }
+    }
+  }
+
+  .test {
+    opacity: 0;
+
+    &:hover {
+      animation: pulse 1s infinite;
+    }
+  }
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0.3;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
