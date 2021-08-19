@@ -234,6 +234,10 @@ const ControllerSVG = ({ state, toggleSettingsMenuState }) => {
               className="fade-in-path button-text y-button"
               d="m 136.21774,77.728556 -1.80524,2.880102 v 2.249649 h -0.68213 v -2.177302 l -1.81212,-2.952449 h 0.75448 l 1.40215,2.294435 1.41594,-2.294435 z"
               id="path882"
+              style={{
+                fill: controllerColors.mainButtons.pressed,
+                stroke: controllerColors.mainButtons.pressed,
+              }}
             />
           </g>
         </g>
@@ -250,6 +254,10 @@ const ControllerSVG = ({ state, toggleSettingsMenuState }) => {
               className="fade-in-path button-text a-button"
               d="m 136.36224,82.66436 h -0.72691 l -0.50299,-1.429716 h -2.21864 l -0.50299,1.429716 h -0.69246 l 1.86724,-5.12975 h 0.90951 z m -1.44005,-2.015382 -0.89917,-2.518367 -0.90262,2.518367 z"
               id="path891"
+              style={{
+                fill: controllerColors.mainButtons.pressed,
+                stroke: controllerColors.mainButtons.pressed,
+              }}
             />
           </g>
         </g>
@@ -266,6 +274,10 @@ const ControllerSVG = ({ state, toggleSettingsMenuState }) => {
               className="fade-in-path button-text x-button"
               d="m 136.23607,77.707606 -1.77078,2.535592 1.76734,2.594159 h -0.78893 l -1.39871,-2.111845 -1.43316,2.111845 h -0.74414 l 1.78801,-2.563153 -1.74667,-2.566598 h 0.78548 l 1.38149,2.084284 1.41249,-2.084284 z"
               id="path900"
+              style={{
+                fill: controllerColors.mainButtons.pressed,
+                stroke: controllerColors.mainButtons.pressed,
+              }}
             />
           </g>
         </g>
@@ -282,6 +294,10 @@ const ControllerSVG = ({ state, toggleSettingsMenuState }) => {
               className="fade-in-path button-text b-button"
               d="m 136.18253,81.259502 q 0,0.382406 -0.1447,0.675239 -0.14469,0.292833 -0.38929,0.482314 -0.28939,0.227376 -0.63734,0.323839 -0.34451,0.09646 -0.8785,0.09646 h -1.81902 v -5.129751 h 1.51929 q 0.56155,0 0.84061,0.04134 0.27905,0.04134 0.53399,0.172255 0.28249,0.148139 0.40996,0.382406 0.12747,0.230822 0.12747,0.554661 0,0.36518 -0.18603,0.623562 -0.18604,0.254938 -0.4961,0.409967 v 0.02756 q 0.52021,0.106798 0.81994,0.458198 0.29972,0.347955 0.29972,0.881945 z m -1.14722,-2.311661 q 0,-0.186035 -0.062,-0.313504 -0.062,-0.127468 -0.19982,-0.206706 -0.16192,-0.09302 -0.39274,-0.113688 -0.23082,-0.02411 -0.57188,-0.02411 h -0.81305 v 1.481392 h 0.88195 q 0.32039,0 0.50987,-0.03101 0.18948,-0.03445 0.3514,-0.137804 0.16192,-0.103353 0.22738,-0.265273 0.0689,-0.165364 0.0689,-0.389296 z m 0.43753,2.339222 q 0,-0.310059 -0.093,-0.492649 -0.093,-0.182591 -0.33762,-0.310059 -0.16536,-0.08613 -0.40308,-0.110243 -0.23426,-0.02756 -0.57188,-0.02756 h -1.07143 v 1.908584 h 0.90262 q 0.44786,0 0.7338,-0.04479 0.28595,-0.04823 0.46854,-0.172255 0.19292,-0.134359 0.2825,-0.306614 0.0896,-0.172255 0.0896,-0.444417 z"
               id="path909"
+              style={{
+                fill: controllerColors.mainButtons.pressed,
+                stroke: controllerColors.mainButtons.pressed,
+              }}
             />
           </g>
         </g>

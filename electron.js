@@ -13,6 +13,7 @@ function createWindow() {
     },
     useContentSize: true,
     icon: path.join(__dirname, "assets/icon.ico"),
+    autoHideMenuBar: true,
   });
 
   if (isDev) {
