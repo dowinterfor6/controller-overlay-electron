@@ -48,6 +48,13 @@ Run React app in development mode (opens browser)
 $ npm start --prefix frontend
 ```
 
+## Build
+
+To create a build targetting Windows x64
+```
+$ npm run build
+```
+
 ## Contribution
 
 This project is a personal project and not expected to gain a lot of traction, however if there are developers willing to contribute by opening pull requests, I will gladly set up proper contribution guidelines and review pull requests.
