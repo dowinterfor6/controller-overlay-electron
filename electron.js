@@ -12,7 +12,7 @@ function createWindow() {
       nodeIntegration: true,
     },
     useContentSize: true,
-    icon: "./frontend/public/favicon.ico",
+    icon: path.join(__dirname, "assets/icon.ico"),
   });
 
   if (isDev) {

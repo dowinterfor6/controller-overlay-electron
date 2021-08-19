@@ -1,6 +1,7 @@
-https://www.beekeeperstudio.io/blog/building-electron-windows-ubuntu-wsl2
-Run in Linux terminal instead of vscode terminal
+# If node_modules exists already that was installed in WSL:
 
-(Probably ignore the top stuff)
-https://www.electronforge.io/guides/developing-with-wsl
-https://www.electronjs.org/docs/latest/api/browser-window/#class-browserwindow
+rm -r node_modules
+
+# then:
+
+npm install --platform=win32
