@@ -1,7 +1,57 @@
-# If node_modules exists already that was installed in WSL:
+# Controller Overlay
 
-rm -r node_modules
+A simple application to display a controller overlay, for streaming or recording use.
 
-# then:
+## Features
 
-npm install --platform=win32
+- Draws a controller overlay on application launch
+- Displays controller button presses and joystick movement
+- Allows for customizable background color, defaults to green (#00FF00) for chroma keying
+- 4 color theme presets (Black, White, Blue, Red)
+
+## Future Features
+
+- Selection between DualShock layout and Xbox layout
+- Completely customizeable color theme
+- Better application icon
+
+## Technology
+
+The core of the application is made with React, with `create-react-app`, and wrapped in Electron, with the final build made with Electron Packager as a standalone executable.
+
+## Install
+
+This project has been developed on [WSL2](https://docs.microsoft.com/en-us/windows/wsl/install-win10), and all commands are for WSL2. Builds currently target Windows x64 release.
+
+Install dependencies for the Electron wrapper
+
+```
+$ rm -rf node_modules/
+$ npm install --platform=win32
+```
+
+Install dependencies for React app
+
+```
+$ npm install --prefix frontend
+```
+
+Run Electron app in development mode
+
+```
+$ npm run dev
+```
+
+Run React app in development mode (opens browser)
+
+```
+$ npm start --prefix frontend
+```
+
+## Contribution
+
+This project is a personal project and not expected to gain a lot of traction, however if there are developers willing to contribute by opening pull requests, I will gladly set up proper contribution guidelines and review pull requests.
+
+## Alternatives
+
+A pretty popular existing solution is https://gamepadviewer.com/, however this application goes for a more minimalistic design as well as being a downloadable standalone application.

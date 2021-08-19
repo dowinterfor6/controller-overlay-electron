@@ -9,8 +9,8 @@
     "electron": "wait-on tcp:3000 && electron .",
     "start": "electron-forge start",
     "frontend": "npm run build --prefix frontend",
-    "electronPackager": "electron-packager . ControllerOverlay --platform=win32 --arch=x64 --overwrite --icon=assets/icon.ico --out=release-builds",
-    "build": "npm run frontend && npm run electronPackager"
+    "electron-packager": "electron-packager . ControllerOverlay --platform=win32 --arch=x64 --overwrite --icon=assets/icon.ico --out=release-builds",
+    "build": "npm run frontend && npm run electron-packager"
   },
   "keywords": [],
   "author": "",
